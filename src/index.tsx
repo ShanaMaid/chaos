@@ -4,7 +4,8 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import * as React from 'react';
+import { Component } from 'react';
 import {
   Platform,
   StyleSheet,
@@ -24,8 +25,8 @@ export default class App extends Component<Props> {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>ds
-          Welcome to React Native!111asdasdfdsdsfsd
+        <Text style={styles.welcome}>
+          Welcome to React Native!
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js。 
